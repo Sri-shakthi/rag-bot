@@ -1,0 +1,22 @@
+Case Title: Nair v. Coastal Bank
+Court: Kerala High Court
+Year: 2022
+
+Mr. Nair challenged Coastal Bank’s refusal to reimburse unauthorized digital transactions totaling INR 8.7 lakhs executed through multiple UPI and card-not-present transfers over two days. Nair asserted he never shared OTPs or PIN, reported suspicious alerts within hours, and requested immediate account freeze. The bank declined full reimbursement, citing customer negligence and delayed reporting under its electronic banking policy.
+
+The banking ombudsman granted partial relief, finding unclear evidence on customer fault. Both parties approached the High Court: Nair sought full restitution with interest; the bank sought reversal of even partial liability.
+
+The Court examined RBI circulars on customer liability in unauthorized electronic transactions, especially burden allocation and reporting timelines. It noted that where neither bank nor customer negligence is established conclusively, customer liability is limited to prescribed caps. Where bank-side deficiency exists, customer bears zero liability.
+
+Evidence showed Nair had registered SMS alerts and contacted the helpline after the second suspicious debit, with written complaint lodged the same day. The bank argued that first two transactions occurred before complaint and therefore remained customer risk. However, forensic logs revealed repeated high-risk triggers: unusual device fingerprinting, geolocation anomalies, and rapid-value sequencing inconsistent with account behavior. Internal fraud engine generated medium-risk alerts but no transaction hold was applied.
+
+The Court found this significant because bank policy required step-up authentication or temporary block upon clustered high-risk events. Non-activation of this control constituted service deficiency. The bank also failed to produce clear evidence of OTP delivery integrity and device binding records for all disputed transfers.
+
+On contributory negligence, the Court rejected generalized assertions that digital fraud necessarily implies customer compromise. It held that such presumption is impermissible without specific proof, such as credential sharing, phishing acknowledgment, or device-side compromise linked to the customer.
+
+The Court directed full reversal of unauthorized transactions, restoration of consequential charges, and payment of interest from complaint date. It also awarded moderate compensation for harassment due to repeated branch visits and prolonged grievance handling.
+
+Additionally, the Court issued prospective compliance directions: banks must publish transparent unauthorized-transaction workflows, provide one-click emergency freeze options, and maintain auditable incident timelines shared with customers upon request.
+
+Final holding: customer entitled to full reimbursement due to bank control failure and lack of proven customer negligence; ombudsman partial award enhanced.
+

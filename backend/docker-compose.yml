@@ -1,0 +1,34 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: rag-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ragdb
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  backend:
+    build: .
+    container_name: rag-backend
+    depends_on:
+      mysql:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: mysql://root:root@mysql:3306/ragdb
+    ports:
+      - "3001:3001"
+    command: sh -c "npx prisma generate --schema=src/prisma/schema.prisma && npx prisma migrate deploy --schema=src/prisma/schema.prisma && npm run start"
+
+volumes:
+  mysql_data:

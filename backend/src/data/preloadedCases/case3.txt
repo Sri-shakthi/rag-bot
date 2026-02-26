@@ -1,0 +1,22 @@
+Case Title: People v. Aditi Sharma
+Court: Bombay High Court
+Year: 2018
+
+The prosecution alleged that Aditi Sharma participated in a conspiracy to siphon funds from a cooperative credit society through fabricated beneficiary accounts. According to the charge sheet, forty-two accounts were opened using forged identity documents, and withdrawals were coordinated over a six-month period. Aditi, employed as assistant operations supervisor, was alleged to have approved exception overrides in the core banking platform and suppressed red-flag alerts.
+
+The trial court convicted Aditi under cheating, forgery, and conspiracy provisions, relying on internal audit testimony, statement of a co-accused, and logs showing her user credentials were used to authorize account activations. She appealed, arguing that credential use did not prove personal action because terminal sharing was common, login passwords were frequently disclosed to shift staff, and supervisory instructions were often oral.
+
+The High Court examined whether the evidentiary chain excluded reasonable doubt. It first addressed digital logs. The Court observed that logs established that transactions originated from Aditi’s operator profile, but prosecution failed to produce forensic evidence showing exclusive control of credentials at the relevant timestamps. No CCTV correlation or workstation possession mapping was provided. The Court held that digital attribution without integrity and access-control proof has limited weight.
+
+Second, the Court evaluated the co-accused statement. It reiterated that confession of a co-accused is not substantive evidence against another accused unless corroborated by independent material. Here, corroboration was weak: no recovery from Aditi, no unexplained asset accretion, and no direct witness of her receiving kickbacks.
+
+Third, on audit testimony, the Court found the auditors competent to explain procedural irregularities but not to attribute criminal intent. Their findings showed control failures and policy deviations, but intent and participation required stronger linkage.
+
+The prosecution relied on email instructions sent from Aditi’s account approving urgent onboarding. The defense demonstrated that account access was delegated during leave periods and that two emails were sent from shared terminals during roster overlap. The Court noted poor IT governance at the branch and absence of immutable audit segregation.
+
+On conspiracy, the Court held that association or employment hierarchy cannot substitute for proof of meeting of minds. Circumstantial evidence must be complete and consistent only with guilt. In this case, gaps persisted.
+
+The Court set aside conviction on grounds of benefit of doubt. It clarified that acquittal did not negate financial misconduct at the institution; rather, prosecution had not met criminal standard against this appellant. It directed the Registrar of Cooperative Societies to initiate compliance reforms, including mandatory multi-factor approvals for high-risk account creation and periodic credential-control audits.
+
+Final holding: conviction reversed; appellant acquitted; prosecution evidence held insufficient to prove guilt beyond reasonable doubt.
+

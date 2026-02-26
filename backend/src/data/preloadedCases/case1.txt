@@ -1,0 +1,20 @@
+Case Title: State v. Raman (Contract Fraud Appeal)
+Court: Supreme Court of India
+Year: 2019
+
+This appeal arose from a procurement contract issued by a state electricity board for installation of smart metering equipment in seven districts. The tender conditions required bidders to disclose prior blacklisting, pending criminal complaints involving procurement fraud, and any prior termination for material default. Raman Infrastructure Pvt. Ltd. submitted a bid that was ultimately declared L1 and received a letter of acceptance. Within eight months, whistleblower complaints alleged that Raman had failed to disclose a prior termination by another state utility and had suppressed a pending charge sheet related to forged quality certificates.
+
+The trial court held that the state had validly rescinded the contract under the fraud and misrepresentation clauses and was entitled to encash performance guarantees. The first appellate court partly reversed, finding that the omitted disclosures were not causally connected to contract performance and therefore rescission was disproportionate. The state appealed.
+
+Before the Supreme Court, the state argued that disclosure clauses in public tenders are strict eligibility obligations and not mere formalities. According to the state, suppression of material facts undermines integrity of public procurement and disentitles the bidder from equitable relief. Raman argued that the omitted matters were historical, disputed, and unrelated to current technical capacity. Raman also argued that the state had waived objections by allowing performance to continue for several months and by issuing interim payment certificates.
+
+The Court framed four issues: first, whether the tender disclosure obligations were conditions precedent to contract continuance; second, whether non-disclosure was material; third, whether waiver could be inferred from administrative inaction; and fourth, whether encashment of the full guarantee was punitive.
+
+On the first issue, the Court held that in government procurement, integrity disclosures are foundational and expressly linked to public trust. The Court read the tender conditions together with the anti-corruption compliance appendix and concluded that truthful disclosure was a continuing obligation. On materiality, the Court found that a prior termination for quality fraud and a pending criminal prosecution were facts that a reasonable tendering authority would treat as relevant. The Court rejected Raman’s argument that only adjudicated guilt mattered at the disclosure stage.
+
+On waiver, the Court held that waiver of fraud-based rights must be clear and intentional. Mere administrative delay, file movement, and provisional bill certification could not amount to waiver where the contract itself provided that discovered misrepresentation permits termination at any stage. The Court noted that public bodies cannot be lightly presumed to have condoned procurement fraud absent explicit ratification by competent authority.
+
+On guarantee encashment, however, the Court introduced proportionality. It held that while rescission was valid, full encashment without recording quantified loss risked becoming penal. The Court remanded limited issues to determine recoverable loss directly attributable to the tainted award process, allowing interim retention of fifty percent of the guarantee amount.
+
+Final holding: contract rescission upheld; finding of material non-disclosure upheld; waiver rejected; full guarantee encashment modified and remanded for quantified loss determination.
+

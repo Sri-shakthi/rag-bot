@@ -1,0 +1,31 @@
+{
+  "name": "legal-rag-backend",
+  "version": "1.0.0",
+  "description": "Production-grade Legal RAG backend with Express, Prisma, MySQL, Pinecone, and OpenAI",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prisma:generate": "prisma generate --schema=src/prisma/schema.prisma",
+    "prisma:migrate": "prisma migrate dev --schema=src/prisma/schema.prisma",
+    "prisma:deploy": "prisma migrate deploy --schema=src/prisma/schema.prisma",
+    "db:push": "prisma db push --schema=src/prisma/schema.prisma"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^4.0.1",
+    "@prisma/client": "^6.4.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "multer": "^1.4.5-lts.2",
+    "openai": "^4.79.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.4.1"
+  }
+}

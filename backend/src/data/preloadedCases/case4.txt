@@ -1,0 +1,22 @@
+Case Title: Green Earth Foundation v. Union Territory
+Forum: National Green Tribunal
+Year: 2020
+
+Green Earth Foundation filed an environmental action alleging that an industrial estate discharged untreated effluents into a tributary used by nearby villages for irrigation and seasonal fishing. The petition relied on water sample reports, satellite imagery of color change in the stream, and affidavits from local residents reporting fish mortality and crop decline.
+
+The Union Territory administration argued that common effluent treatment infrastructure had been commissioned and that occasional exceedances were isolated events. Industrial units claimed they had installed pre-treatment systems and that contamination likely originated from upstream municipal drains.
+
+The Tribunal appointed a joint committee consisting of the pollution control board, district administration, and a technical university laboratory. The committee report found repeated exceedances of COD, BOD, and heavy metals at downstream points, especially near a drain connected to cluster units manufacturing dyes and electroplating inputs. Flow-meter records showed bypass events during night hours when monitoring presence was minimal.
+
+The Tribunal framed issues on causation, regulatory compliance, and remediation responsibility. It held that precise apportionment among units could not delay immediate preventive action where public environmental harm was established on a prima facie basis. Applying the precautionary principle and polluter-pays doctrine, the Tribunal directed immediate interim controls: sealing identified bypass lines, installation of online real-time monitoring, and constitution of a third-party operations audit.
+
+On liability, the Tribunal found both estate management and specific units responsible. Estate management failed to maintain treatment uptime and failed to report process disruptions. Certain units repeatedly breached consent conditions and under-reported hazardous sludge generation.
+
+The Tribunal ordered an environmental compensation framework based on pollutant load, duration of violation, and restoration cost. Compensation was split into two accounts: ecological restoration and community relief. Restoration measures included desilting affected stream stretches, riparian plantation, bio-remediation pilots, and annual biodiversity monitoring for three years.
+
+For affected residents, the Tribunal directed crop-loss assessment by agriculture officers and a fisheries livelihood support package. It also mandated a public grievance dashboard with monthly publication of compliance metrics, sampling data, and enforcement status.
+
+The respondents sought relaxation citing financial hardship and pandemic disruptions. The Tribunal rejected blanket relaxation but allowed a phased payment schedule conditioned on strict interim compliance milestones. Any default would trigger automatic suspension of consent to operate for chronic violators.
+
+Final holding: environmental violations established; precautionary and polluter-pays principles applied; compensation and remediation directions issued with monitoring, transparency, and phased enforcement.
+

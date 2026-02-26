@@ -1,0 +1,22 @@
+Case Title: Kumar Industries v. Metro Authority
+Court: Delhi High Court
+Year: 2021
+
+Kumar Industries entered into an EPC contract with the Metro Authority for construction of two elevated station segments and associated signaling interfaces. The contract had a strict completion schedule of twenty-four months, with liquidated damages fixed at one percent of contract price per week of delay, capped at ten percent. The authority eventually imposed the full cap after completion was delayed by sixteen weeks.
+
+Kumar challenged the levy, contending that delay was predominantly caused by late design approvals, relocation of underground utilities, and repeated right-of-way obstructions due to unresolved municipal clearances. Kumar produced site logs, correspondence with the resident engineer, and monthly progress reports showing multiple notices of hindrance. The Metro Authority argued that Kumar had under-resourced the project, failed to mobilize specialized crane units on time, and repeatedly sought extensions without revised recovery plans.
+
+The arbitral tribunal had split responsibility and reduced damages to five percent, finding concurrent delay. The Metro Authority challenged that award under Section 34, while Kumar sought complete setting aside of damages.
+
+The High Court began by reviewing the contract’s delay matrix, especially clauses assigning responsibility for land access and third-party utility relocation. It held that where the employer controls critical interface obligations, delay consequences cannot be shifted wholesale to the contractor. The Court accepted that portions of delay arose from authority-side constraints, including late possession in two chainage blocks and delayed handover of approved IFC drawings.
+
+However, the Court also recorded contractor defaults: inadequate shift deployment during dry-weather windows, delayed procurement of prefabricated components, and failure to comply with revised sequencing instructions. These findings supported concurrent delay rather than sole employer delay.
+
+On liquidated damages, the Court reiterated that agreed LD clauses are enforceable where delay is proved and pre-estimate is not unconscionable. Yet, where delay is concurrent and causation is divisible, rigid application of maximum LD can be arbitrary. The Court approved the tribunal’s method of allocating delay periods based on contemporaneous records and reducing LD proportionately.
+
+The authority’s argument that any delay beyond milestone automatically triggered full LD cap was rejected. The Court held that such a reading ignores contractual fairness and evidentiary causation. Kumar’s plea for zero damages was also rejected because contractor-side inefficiencies were substantial and documented.
+
+The Court upheld the arbitral award, including the reduced damages at five percent and interest adjustments. It emphasized practical project administration: parties must maintain hindrance registers, decision logs, and approval timelines to facilitate accurate delay attribution. It also directed future metro contracts to include mandatory monthly joint causation assessments to prevent end-stage disputes.
+
+Final holding: arbitral apportionment of concurrent delay sustained; reduced liquidated damages upheld; no complete exoneration for contractor; no restoration of full LD cap for authority.
+
