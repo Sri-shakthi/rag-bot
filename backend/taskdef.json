@@ -1,0 +1,38 @@
+{
+    "family": "rag-backend-task",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": ["FARGATE"],
+    "cpu": "512",
+    "memory": "1024",
+    "executionRoleArn": "arn:aws:iam::245681210619:role/ecsTaskExecutionRole",
+    "containerDefinitions": [
+      {
+        "name": "rag-backend",
+        "image": "245681210619.dkr.ecr.us-east-1.amazonaws.com/rag-backend:latest",
+        "essential": true,
+        "portMappings": [{ "containerPort": 3002, "protocol": "tcp" }],
+        "secrets": [
+          { "name": "DATABASE_URL", "valueFrom": "arn:aws:secretsmanager:us-east-1:245681210619:secret:rag-backend-prod:DATABASE_URL::" },
+          { "name": "GEMINI_API_KEY", "valueFrom": "arn:aws:secretsmanager:us-east-1:245681210619:secret:rag-backend-prod:GEMINI_API_KEY::" },
+          { "name": "PINECONE_API_KEY", "valueFrom": "arn:aws:secretsmanager:us-east-1:245681210619:secret:rag-backend-prod:PINECONE_API_KEY::" },
+          { "name": "PINECONE_INDEX_NAME", "valueFrom": "arn:aws:secretsmanager:us-east-1:245681210619:secret:rag-backend-prod:PINECONE_INDEX_NAME::" },
+          { "name": "PINECONE_HOST", "valueFrom": "arn:aws:secretsmanager:us-east-1:245681210619:secret:rag-backend-prod:PINECONE_HOST::" },
+          { "name": "CORS_ORIGINS", "valueFrom": "arn:aws:secretsmanager:us-east-1:245681210619:secret:rag-backend-prod:CORS_ORIGINS::" }
+        ],
+        "command": [
+          "sh",
+          "-c",
+          "npx prisma generate --schema=src/prisma/schema.prisma && npx prisma migrate deploy --schema=src/prisma/schema.prisma && node src/server.js"
+        ],
+        "logConfiguration": {
+          "logDriver": "awslogs",
+          "options": {
+            "awslogs-group": "/ecs/rag-backend",
+            "awslogs-region": "us-east-1",
+            "awslogs-stream-prefix": "ecs"
+          }
+        }
+      }
+    ]
+  }
+  

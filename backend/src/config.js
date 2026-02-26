@@ -17,7 +17,9 @@ const corsOrigins = Array.from(
   new Set([
     ...parsedOrigins,
     "http://localhost:3000",
-    "http://127.0.0.1:3000"
+    "http://127.0.0.1:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
   ])
 );
 
@@ -25,6 +27,19 @@ const config = {
   port: Number(process.env.PORT || 3001),
   nodeEnv: process.env.NODE_ENV || "development",
   corsOrigins,
+  googleClientIds: (process.env.GOOGLE_CLIENT_IDS || process.env.GOOGLE_CLIENT_ID || "")
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean),
+  authJwtSecret: process.env.AUTH_JWT_SECRET || "",
+  authCookieName: process.env.AUTH_COOKIE_NAME || "rag_auth",
+  authCookieMaxAgeMs: Number(
+    process.env.AUTH_COOKIE_MAX_AGE_MS || 10 * 24 * 60 * 60 * 1000
+  ),
+  authCookieSameSite:
+    process.env.AUTH_COOKIE_SAME_SITE || (process.env.NODE_ENV === "production" ? "none" : "lax"),
+  authCookieSecure:
+    process.env.AUTH_COOKIE_SECURE === "true" || process.env.NODE_ENV === "production",
   geminiApiKey: process.env.GEMINI_API_KEY || "",
   geminiEmbeddingModel: process.env.GEMINI_EMBEDDING_MODEL || "gemini-embedding-001",
   geminiEmbeddingDimensions: Number(process.env.GEMINI_EMBEDDING_DIMENSIONS || 0),
