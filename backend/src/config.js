@@ -3,9 +3,16 @@ require("dotenv").config();
 function normalizeOrigin(value) {
   const v = String(value || "").trim();
   if (!v) return null;
-  if (v.startsWith("http://") || v.startsWith("https://")) return v;
+  if (v.startsWith("http://") || v.startsWith("https://")) {
+    try {
+      const url = new URL(v);
+      return `${url.protocol}//${url.host}`;
+    } catch (_error) {
+      return v.replace(/\/+$/, "");
+    }
+  }
   if (/^\d+$/.test(v)) return `http://localhost:${v}`;
-  return `http://${v}`;
+  return `http://${v}`.replace(/\/+$/, "");
 }
 
 const parsedOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || "http://localhost:3000")
